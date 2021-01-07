@@ -5,7 +5,7 @@ import "../Navbar/CNavbar.css"
 export default class CNavbars extends Component {
   render() {
     return (
-      <Navbar  expand="md" className="p-2">
+      <Navbar  expand="md" className="p-2 fixed-top bg-transparent">
         <Container>
           <Navbar.Brand href="#home">TECHIE</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

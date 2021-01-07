@@ -9,6 +9,7 @@ header {
   width: 100%;
   background-size: cover;
   position: relative;
+  padding-top: 30px;
 }
 header h1 {
   margin: 0;

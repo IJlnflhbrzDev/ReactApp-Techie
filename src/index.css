@@ -1,3 +1,5 @@
-#root {
-  overflow-x: hidden !important;
+html,
+body {
+  overflow-x: hidden;
+  height: 200vh;
 }
