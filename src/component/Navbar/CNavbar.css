@@ -1,0 +1,24 @@
+.navbar {
+  background: rgba(24, 6, 185, 0.8);
+}
+
+.navbar-brand {
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: white !important;
+}
+
+.navbar-nav {
+  position: relative;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.7) !important;
+  margin-right: 20px;
+  transition: all 1s ease;
+}
+.nav-link:hover {
+  border-bottom: 1px solid white;
+  color: white !important;
+  transition: all 0.55s ease;
+}
