@@ -1,5 +1,6 @@
 .navbar {
   background: rgba(24, 6, 185, 0.8);
+  transition: all 0.6s ease;
 }
 
 .navbar-brand {
@@ -25,6 +26,6 @@
 
 /* animation scrolling change  */
 .activ-chance {
-  background: rgba(24, 6, 185, 0.8);
-  padding: 12px 0;
+  background: rgba(24, 6, 185, 0.8) !important;
+  transition: all 0.4s ease-in-out;
 }
