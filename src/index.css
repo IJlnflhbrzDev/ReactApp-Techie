@@ -1,7 +1,6 @@
 html,
 body {
   overflow-x: hidden;
-  height: 200vh;
 }
 
 .loader {

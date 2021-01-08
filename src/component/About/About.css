@@ -1,0 +1,42 @@
+#about {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_title {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+h2 {
+  color: #2c4964;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+}
+
+li {
+  font-size: 15px;
+  margin-bottom: 5px;
+  list-style-type: circle;
+}
+
+img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .row {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}

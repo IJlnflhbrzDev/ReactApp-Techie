@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import CNavbars from '../component/Navbar/CNavbar'
 import CHeader from '../component/Header/CHeader'
+import About from '../component/About/About';
 
 export default class Home extends Component {
      constructor(props) {
@@ -23,6 +24,7 @@ export default class Home extends Component {
                     <LoaderElement />
                     <CNavbars />
                     <CHeader />
+                    <About />
                </>
           )
      }
