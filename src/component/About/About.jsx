@@ -22,7 +22,7 @@ export default function About() {
                     <Container>
                          <Row>
                               <Col lg="5" md="5" sm="12">
-                                   <div className="about_title">
+                                   <div className="about_title" data-aos="zoom-out">
                                         <h2>{data.title}</h2>
                                              <p className="font-italic">{data.description}</p>
                                    <ul className="p-0 m-0 mb-1">
@@ -38,14 +38,14 @@ export default function About() {
                                              {data.listDescription.List3}
                                         </li>
                                              <p>{ data.listDescription.paragraf}</p>
-                                             <Button class="d-flex justify-content-around align-items-center">
+                                             <Button className="d-flex justify-content-around align-items-center">
                                              <span>{ data.listDescription.button}</span>
                                              </Button>
                                    </ul>
                                    </div>
                               </Col>
 
-                              <Col lg="7" md="7" sm="12">
+                              <Col lg="7" md="7" sm="12" data-aos="zoom-out">
                                    <img src={data.img} alt="img-about"/>
                               </Col>
                          </Row>

@@ -3,10 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Home from '../src/container/Home';
 import reportWebVitals from './reportWebVitals';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+class Index extends React.Component{
+  componentDidMount() {
+    AOS.init();
+  }
+  render() {
+    return (
+       <Home />
+     )
+  }
+}
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Index />
   </React.StrictMode>,
   document.getElementById('root')
 );

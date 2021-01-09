@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { Col, Row , Button } from 'react-bootstrap'
 import '../Header/CHeader.css'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 export default class CHeader extends Component {
      constructor(props) {
           super(props);
@@ -26,9 +24,7 @@ export default class CHeader extends Component {
      }
 
 
-     componentDidMount() {
-          AOS.init();
-     }
+
      render() {
           return (
                <>

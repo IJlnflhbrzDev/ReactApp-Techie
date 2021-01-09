@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import CNavbars from '../component/Navbar/CNavbar'
 import CHeader from '../component/Header/CHeader'
 import About from '../component/About/About';
+import Counts from '../component/Counts/Counts';
 
 export default class Home extends Component {
      constructor(props) {
@@ -25,6 +26,7 @@ export default class Home extends Component {
                     <CNavbars />
                     <CHeader />
                     <About />
+                    <Counts client="clients" project="projects" hourSuport="Hours Of Support" hardWorker="Hard Workers"  />
                </>
           )
      }

@@ -1,6 +1,6 @@
 html,
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .loader {
@@ -18,4 +18,9 @@ body {
   z-index: 9999;
   width: 100%;
   height: 100%;
+}
+
+section {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
