@@ -21,7 +21,7 @@ export default function About() {
                <section id="about">
                     <Container>
                          <Row>
-                              <Col lg="5" md="5" sm="12">
+                              <Col lg="5" md="12" sm="12">
                                    <div className="about_title" data-aos="zoom-out">
                                         <h2>{data.title}</h2>
                                              <p className="font-italic">{data.description}</p>
@@ -45,7 +45,7 @@ export default function About() {
                                    </div>
                               </Col>
 
-                              <Col lg="7" md="7" sm="12" data-aos="zoom-out">
+                              <Col lg="7" md="12" sm="12" data-aos="zoom-out">
                                    <img src={data.img} alt="img-about"/>
                               </Col>
                          </Row>

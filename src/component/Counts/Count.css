@@ -13,10 +13,6 @@ section#count {
   width: 100%;
   padding: 10px 0;
 }
-.Counts-boxs:hover {
-  background-color: rgba(3, 118, 163, 0.753);
-  cursor: grabbing;
-}
 
 .Counts-boxs h3 {
   font-size: 3em;
