@@ -6,13 +6,13 @@ const DataDamyCards =
      [
           {
                id: 0,
-               Icon: 'https://simpleicon.com/wp-content/uploads/rocket.png ',
+               Icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVQZ05LDN8pI3swBEUJlx3SWENrlkJqfxcYQ&usqp=CAU ',
                title: 'Magni Dolores',
                description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi'
           },
           {
                id: 1,
-               Icon: 'https://cdn.iconscout.com/icon/free/png-512/overwatch-2-569226.png ',
+               Icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7EEqjYv4_J9RfzDlGZ8imf7q6rV9X13Gprw&usqp=CAU',
                title: 'Magni Dolores',
                description: 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi'
           },
@@ -45,7 +45,10 @@ const DataDamyCards =
 export default class Card extends Component {
      constructor(props) {
           super(props);
-          this.state = {};
+          this.state = {
+               detailHoverCard: "Show Detail"
+
+               }
      }
 
      componentDidMount() {
@@ -65,7 +68,16 @@ export default class Card extends Component {
 
 
           }
-          const a =  document.redirec
+
+          const CardShowServices = document.querySelectorAll('#services .card');
+          CardShowServices.forEach(el => {
+              el.addEventListener('mouseover',function () {
+                   this.style.backgroundColor = "blue"
+              });
+              el.addEventListener('mouseleave',function () {
+                   this.style.backgroundColor = "white ";
+              })
+          })
      }
 
      render() {
@@ -77,7 +89,7 @@ export default class Card extends Component {
                               {DataDamyCards.map((cardItem) => {
                                    return (
                                         <Col lg="4" md="6" sm="12" key={cardItem.id} className="mb-4">
-                                             <div className="card shadow">
+                                             <div className="card shadow-lg" data-aos="zoom-in">
                                                   <div className="box-icons">
                                                         <img src={cardItem.Icon} alt="iconst" />
                                                        <div className="title">
