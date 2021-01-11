@@ -49,21 +49,23 @@ export default class Card extends Component {
      }
 
      componentDidMount() {
-          const HandleBoxIconsClickAnimate = document.getElementsByClassName('box-icons');
-          for (let index = 0; index < HandleBoxIconsClickAnimate.length; index++) {
-               HandleBoxIconsClickAnimate[index].addEventListener('click', function () {
-                    let  title = "purple";
-                    let  show = "show";
-                    if (this.classList.contains(show)) {
-                         [show, title] = [title, show];
+          const HandleBoxIconsClickAnimate = document.getElementsByClassName('box-icons'); //mengambil element mengunakan dom
+          for (let index = 0; index < HandleBoxIconsClickAnimate.length; index++) { // Me Looping element2 yg di dapat oleh dom
+               HandleBoxIconsClickAnimate[index].addEventListener('click', function () { //membuat sebuah eventListener ketika card di click
+                    let  title = "purple"; //ini adalah sebuah class yg di masukan di dalam string agar bisa mudah mengunakan pertukaran data yg di balik
+                    let  show = "show"; // ini juga sama
+                    if (this.classList.contains(show)) { // membuat sebuah pekondisian jadi jika element yg sudah di dapat memilikin class yg bernama show
+                         [show, title] = [title, show]; //maka class nya kita tuker yg awal susunan nya show , title  menjadi  title,show
                     }
-                    this.classList.toggle(show);
-                    setTimeout(() => {
+                    this.classList.toggle(show); //ini kita menambahkan class toggle yg bernama variabel show
+                    setTimeout(() => { // disini mengunakan sett time out jadi ketika sudah 5 detik maka tambahkan class yg sudah di tangkap oleh dom menambahkan class title
                          this.classList.toggle(title)
                     }, 500);
                });
 
+
           }
+          const a =  document.redirec
      }
 
      render() {
