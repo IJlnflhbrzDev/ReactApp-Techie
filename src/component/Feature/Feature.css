@@ -1,0 +1,15 @@
+#Feature {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#Feature .row {
+  margin-top: 40px;
+}
+#Feature .title-heading {
+  text-align: center;
+}
+#Feature .title-heading p {
+  max-width: 70%;
+  margin: 10px auto 0 auto;
+  opacity: 0.8;
+}

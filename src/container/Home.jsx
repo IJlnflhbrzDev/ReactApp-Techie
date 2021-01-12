@@ -4,6 +4,7 @@ import CHeader from '../component/Header/CHeader'
 import About from '../component/About/About';
 import Counts from '../component/Counts/Counts';
 import Services from '../component/Service/Services';
+import Feature from '../component/Feature/Feature';
 
 export default class Home extends Component {
      constructor(props) {
@@ -29,6 +30,7 @@ export default class Home extends Component {
                     <About />
                     <Counts client="clients" project="projects" hourSuport="Hours Of Support" hardWorker="Hard Workers" />
                     <Services />
+                    <Feature />
                </>
           )
      }
