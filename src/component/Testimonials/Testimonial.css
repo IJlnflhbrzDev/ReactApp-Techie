@@ -1,0 +1,48 @@
+#Testimonial {
+  margin-top: 100px;
+  padding: 60px 5px;
+  background-color: rgba(238, 238, 238, 0.8);
+}
+
+#Testimonial .title-heading {
+  margin-bottom: 30px;
+}
+#Testimonial .title-heading p {
+  width: 70%;
+  margin: 10px auto 0 auto;
+  opacity: 0.8;
+}
+
+/* style Component TestimonialCard.jsx*/
+#Testimonial .carousel-indicators,
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}
+#Testimonial .card {
+  border: 0;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(20, 90, 80, 0.8);
+}
+#Testimonial .card-body {
+  font-size: 18px;
+  font-style: italic;
+  padding: 30px;
+}
+
+#Testimonial .profile_testimonial {
+  position: absolute;
+}
+#Testimonial .TestimonialCards .profile-testimonial {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 90%;
+  left: 13px;
+  border-radius: 50%;
+}
+
+..profile-testimonial small {
+  padding: -20px !important;
+}
