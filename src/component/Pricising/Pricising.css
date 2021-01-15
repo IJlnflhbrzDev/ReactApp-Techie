@@ -1,3 +1,18 @@
+#Pricising {
+  position: relative;
+}
+#Pricising::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  background: rgba(24, 6, 185, 0.8) !important;
+  clip-path: polygon(100% 100%, 99% 0, 0 100%, 100% 100%);
+  z-index: -1;
+}
+
 #Pricising .Pricising-title {
   text-align: center;
 }
