@@ -5,7 +5,7 @@
   right: 0;
   bottom: 0;
   content: "";
-  background: rgba(30, 8, 233, 0.6) !important;
+  background: whitesmoke !important;
   clip-path: polygon(0 0, 100% 0, 0 100%, 0 100%);
 
   z-index: -1;
