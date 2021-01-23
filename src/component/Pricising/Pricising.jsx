@@ -17,16 +17,16 @@ export default function Pricising() {
                <Container className="mt-5">
                     <Row>
                          <Col xl="3" lg="4" md="6" sm="12" className="mb-3">
-                              <PricisingProdact title="Web Development" />
+                              <PricisingProdact title="Web Development" img="https://placeimg.com/640/480/tech" />
+                         </Col>
+                         <Col xl="3" lg="4" md="6" sm="12" className="mb-3" >
+                              <PricisingProdact title="Mobile App" img="https://placeimg.com/640/480/tech" />
                          </Col>
                          <Col xl="3" lg="4" md="6" sm="12" className="mb-3">
-                              <PricisingProdact title="Mobile App" />
+                              <PricisingProdact title="Product Desaign" img="https://placeimg.com/640/480/tech"  />
                          </Col>
                          <Col xl="3" lg="4" md="6" sm="12" className="mb-3">
-                              <PricisingProdact title="Product Desaign" />
-                         </Col>
-                         <Col xl="3" lg="4" md="6" sm="12" className="mb-3">
-                              <PricisingProdact title="UI/UX" />
+                              <PricisingProdact title="UI/UX" img="https://placeimg.com/640/480/tech"  />
                          </Col>
                     </Row>
                </Container>

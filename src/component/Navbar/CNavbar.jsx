@@ -30,11 +30,11 @@ export default class CNavbars extends Component {
     return (
       <Navbar expand="md" className="p-2 fixed-top bg-transparent">
         <Container>
-          <Navbar.Brand href="#home">{this.state.title}</Navbar.Brand>
+          <Navbar.Brand href="#">{this.state.title}</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#service">Service</Nav.Link>
               <Nav.Link href="#portfolio">Portfolio</Nav.Link>
